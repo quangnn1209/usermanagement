@@ -1,0 +1,283 @@
+New log file opened at Sun Jan 17 00:54:12 ICT 2016 by 16336@QuangAlien
+Taking next connection to: 62341
+New client attempting to connect on port: 62342-62341
+  Address = /192.168.10.1:62341
+This client on port 62342 has uuid 25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec
+Taking next connection to: 62341
+New client attempting to connect on port: 62343-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 62343
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 62344-62341
+  Address = /192.168.10.1:62341
+This client on port 62344 has uuid d6ee7de3-8b95-4431-b267-4e2be993b0c1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, activator-d6ee7de3-8b95-4431-b267-4e2be993b0c1
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+New client attempting to connect on port: 62422-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 62422
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 62423-62341
+  Address = /192.168.10.1:62341
+This client on port 62423 has uuid c4fcc23f-eb56-4c72-ae95-5d8b186b99fa configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-c4fcc23f-eb56-4c72-ae95-5d8b186b99fa
+Taking next connection to: 62341
+New client attempting to connect on port: 62488-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 62488
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 62489-62341
+  Address = /192.168.10.1:62341
+This client on port 62489 has uuid 6769b95d-dfb3-49bf-8df2-da4cdc05c142 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-6769b95d-dfb3-49bf-8df2-da4cdc05c142
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+New client attempting to connect on port: 63939-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 63939
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 63940-62341
+  Address = /192.168.10.1:62341
+This client on port 63940 has uuid c4edf33c-38e8-4981-bbe6-7d94d3cafd93 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-c4edf33c-38e8-4981-bbe6-7d94d3cafd93
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+New client attempting to connect on port: 64283-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 64283
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 64284-62341
+  Address = /192.168.10.1:62341
+This client on port 64284 has uuid 6179b0dd-637b-493d-b0fe-78aadc0507de configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-6179b0dd-637b-493d-b0fe-78aadc0507de
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+New client attempting to connect on port: 64729-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 64729
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 64730-62341
+  Address = /192.168.10.1:62341
+This client on port 64730 has uuid 6379484e-8cde-45cc-8aca-8c80165e33a0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-6379484e-8cde-45cc-8aca-8c80165e33a0
+Taking next connection to: 62341
+New client attempting to connect on port: 64800-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 64800
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 64801-62341
+  Address = /192.168.10.1:62341
+This client on port 64801 has uuid 7a262dfb-a73b-4d02-ad2b-716b2e10729b configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-7a262dfb-a73b-4d02-ad2b-716b2e10729b
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+New client attempting to connect on port: 65044-62341
+  Address = /192.168.10.1:62341
+Handshake exception on socket: 65044
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 62341
+New client attempting to connect on port: 65045-62341
+  Address = /192.168.10.1:62341
+This client on port 65045 has uuid 507ee4c4-f2b0-4c6f-a69b-1ac078187855 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-25d6d4cf-1c5a-422b-9ae5-8ca1bb7650ec, play-fork-run-507ee4c4-f2b0-4c6f-a69b-1ac078187855
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 62341

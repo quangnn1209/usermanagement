@@ -1,0 +1,19 @@
+@(person: Form[SearchPersonForm])(implicit messages: Messages)
+
+@import helper._
+
+@main("Search person") {
+	<script type='text/javascript' src='@routes.Assets.versioned("javascripts/search.js")'></script>
+    <ul id="person"></ul>
+    @form(routes.PersonController.searchPerson()) {
+        @inputText(person("name"))
+
+        <div class="buttons">
+            <input type="submit" value="Search Person"/>
+        </div>
+    }
+
+    <a class="btn" href="/" >
+        Back
+    </a>
+}
